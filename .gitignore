@@ -15,6 +15,7 @@ venv/
 models/*.pth
 models/*.pt
 models/*.onnx
+dataset/
 outputs/
 
 # --- Datasets ---
@@ -26,6 +27,7 @@ data/external/
 *.jpeg
 *.png
 *.gif
+*.zip
 
 # --- OS Specific ---
 .DS_Store
