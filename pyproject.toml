@@ -1,0 +1,40 @@
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.uv/
+.ipynb_checkpoints/
+
+# --- AI Models & Weights ---
+# These are too large for Git; share them via Drive or Hugging Face
+models/*.pth
+models/*.pt
+models/*.onnx
+outputs/
+
+# --- Datasets ---
+# Never push your raw or processed images
+data/raw/
+data/processed/
+data/external/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# --- OS Specific ---
+.DS_Store
+.directory
+Thumbs.db
+
+# --- Results & Logs ---
+results/
+runs/
+*.log
+final_analysis.jpg
+shadow_proof_analysis.jpg
